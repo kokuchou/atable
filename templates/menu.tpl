@@ -1,5 +1,5 @@
 {include file='common/header.tpl'}
-<h1>メニュー</h1>
+<h1 class="under_banner">メニュー</h1>
 <div align="center"><p><a href="#lunch">ランチ</a>　　<a href="#dinner">ディナー</a>　　<a href="#alltime">オールタイムコース</a></p></div>
 <div align="center">※苦手な食材やアレルギー等がございましたら、ご遠慮なくお申し付けください。<br>代わりの品などをご用意致します。</div>
 <div align="center">※手作りパンはバケットおかわり自由。ミルクパンの追加は1個50円になります。</div>

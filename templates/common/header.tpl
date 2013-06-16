@@ -1,4 +1,4 @@
-<HTML>
+<!DOCTYPE  HTML>
 <HEAD>
 <TITLE>
 {$title}
@@ -52,7 +52,7 @@ background-position: left bottom
       </li>
       <li{if $cur === 'info'} class="active"{/if}><a href="/info/"><i class="icon-envelope"></i>Contact</a></li>
       <li><a href="#"> 掲示板(工事中)</a></li>
-      <li style="padding-top: 20px;">
+      <li style="padding-top: 10px;">
         <a href="https://twitter.com/atable2" class="twitter-follow-button" data-show-count="true">Follow @atable2</a>
         <script>
             !function(d,s,id){

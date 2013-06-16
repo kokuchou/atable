@@ -43,3 +43,9 @@ div.main{
   z-index: 1030;
   margin-bottom: 0;
 }
+
+.under_banner {
+    background-image: url("/img/under_banner.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}

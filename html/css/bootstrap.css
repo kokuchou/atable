@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v2.3.1
+ * Bootstrap v2.3.2
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -223,7 +223,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -3009,6 +3009,15 @@ table th[class*="span"],
   display: block;
 }
 
+.dropdown-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 990;
+}
+
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
@@ -3942,11 +3951,6 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
   list-style: none;
 }
-
-.nav li {
-  padding-top: 10px;
-}
-
 
 .nav > li > a {
   display: block;
@@ -5974,6 +5978,7 @@ a.badge:focus {
 .carousel-inner {
   position: relative;
   width: 500px;
+  height: 380px;
   overflow: hidden;
 }
 
@@ -6032,7 +6037,7 @@ a.badge:focus {
 
 .carousel-control {
   position: absolute;
-  top: 40%;
+  top: 5%;
   left: 15px;
   width: 40px;
   height: 40px;
@@ -6064,10 +6069,8 @@ a.badge:focus {
 
 .carousel-indicators {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
+  top: 15px;
+  right: 15px;
   z-index: 5;
   margin: 0;
   list-style: none;

@@ -1,33 +1,30 @@
 {include file='common/header.tpl'}
-<h2>ようこそ、アターブルへ</h2>
-<br>
-<div id="myCarousel" class="carousel slide" style="width:500px; float: left;">
-{*
-<ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-</ol>
-*}
-<div class="carousel-inner" align="center">
-    <div class="item active">
-    <img src="/photo/tandoori.png" alt="" class="img-rounded">
-{*    
-    <div class="carousel-caption">
-        <h4>First Thumbnail label</h4>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-    </div>
-*}
-    </div>
-    <div class="item">
-    <img src="/photo/wine.png" alt="" class="img-rounded">
-    </div>
+<div style="float: left;">
+    <h2 class="under_banner">ようこそ、アターブルへ</h2>
 </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="icon-arrow-left"></i></a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="icon-arrow-right"></i></a>
+<div class="span2"></div>
+<div style="float: left;">
+    <table>
+        <tr><th>営業時間</th><td>11:30～14:30(L.O:14:00)&nbsp;17:30～21:30(L.O:21:00)</td></tr>
+        <tr><th>定休日</th><td>水（水曜日の営業につきましてはご相談ください。）</td></tr>
+        <tr><th>TEL/FAX</th><td>0749-64-5400</td></tr>
+    </table>
+</div>
+<div style="clear: both;"></div>
+<br />
+{include file='slid.tpl'}
+<br>
+<div>
+    <h1 class="under_banner">お知らせ</h1>
+    <blockquote>
+        <p class="text-info">『ぼてじゃこ倶楽部』限定メニューをご用意しております。</p>
+        <small>詳しくは『ぼてじゃこ倶楽部』をご覧ください。</small>
+    </blockquote>
+</div>
+</div>
 </div>
 <div class="span1"></div>
-<div style="width :200px; float: left;">
+<div style="width :300px; float: left;">
 <a class="twitter-timeline" href="https://twitter.com/atable2" data-widget-id="345918670486245377">@atable2 からのツイート</a>
 <script>
     !function(d,s,id){
@@ -41,8 +38,5 @@
     }
     (document,"script","twitter-wjs");
 </script>
-</div>
-<div style="clear:both;">
-        お知らせが入ります
 </div>
 {include file='common/footer.tpl'}

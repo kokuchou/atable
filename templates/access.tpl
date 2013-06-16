@@ -1,5 +1,5 @@
 {include file='common/header.tpl'}
-    <h1>アクセス</h1>
+    <h1 class="under_banner">アクセス</h1>
     <table border="1" cellspacing="0" cellpadding="5" bordercolor="#99ffcc">
         <tr>
             <td bgcolor="#33ffff">電話番号</td>

@@ -1,5 +1,5 @@
 {include file='common/header.tpl'}
-<h1>ア・ターブル</h1>
+<h1 class="under_banner">ア・ターブル</h1>
 <p align="left"><IMG SRC="/photo/photo_image10-thumb.jpg" ALIGN="left"><font size="+2" color="red">大好評！シェフ自慢の創作菓子『チョコレートの石畳』　&yen;1,050（16個入り）</font><br>
     <font size="3">フランス産チョコレートに和風テイストを組み合わせた絶品生チョコレート。<br>
         お味は『きな粉の生チョコレート』『お汁粉の生チョコレート』『ほうじ茶と和三盆糖の生チョコレート』の<br>

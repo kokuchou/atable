@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 00:19:50
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 11:37:30
          compiled from "/var/www/atable/templates/common/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:66063891451bc329b0c9775-61862167%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1bea847632523dc6fdb1defe850b4ea7c3c8c0c0' => 
     array (
       0 => '/var/www/atable/templates/common/header.tpl',
-      1 => 1371309589,
+      1 => 1371350248,
       2 => 'file',
     ),
   ),
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51bc329b12bea8_76331910')) {function content_51bc329b12bea8_76331910($_smarty_tpl) {?><HTML>
+<?php if ($_valid && !is_callable('content_51bc329b12bea8_76331910')) {function content_51bc329b12bea8_76331910($_smarty_tpl) {?><!DOCTYPE  HTML>
 <HEAD>
 <TITLE>
 <?php echo $_smarty_tpl->tpl_vars['title']->value;?>
@@ -81,7 +81,7 @@ background-position: left bottom
       </li>
       <li<?php if ($_smarty_tpl->tpl_vars['cur']->value==='info'){?> class="active"<?php }?>><a href="/info/"><i class="icon-envelope"></i>Contact</a></li>
       <li><a href="#"> 掲示板(工事中)</a></li>
-      <li style="padding-top: 20px;">
+      <li style="padding-top: 10px;">
         <a href="https://twitter.com/atable2" class="twitter-follow-button" data-show-count="true">Follow @atable2</a>
         <script>
             !function(d,s,id){
