@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 13:01:33
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 18:52:52
          compiled from "/var/www/atable/templates/menu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:124181686451bc336d731020-39354888%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8b9a4377886766de5e551efccf06b28ce9e717fd' => 
     array (
       0 => '/var/www/atable/templates/menu.tpl',
-      1 => 1371311516,
+      1 => 1371363728,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51bc336d786624_61110180')) {function content_51bc336d786624_61110180($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-<h1>メニュー</h1>
+<h1 class="under_banner">メニュー</h1>
 <div align="center"><p><a href="#lunch">ランチ</a>　　<a href="#dinner">ディナー</a>　　<a href="#alltime">オールタイムコース</a></p></div>
 <div align="center">※苦手な食材やアレルギー等がございましたら、ご遠慮なくお申し付けください。<br>代わりの品などをご用意致します。</div>
 <div align="center">※手作りパンはバケットおかわり自由。ミルクパンの追加は1個50円になります。</div>

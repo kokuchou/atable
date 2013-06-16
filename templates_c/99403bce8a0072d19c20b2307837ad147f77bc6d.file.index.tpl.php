@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 17:43:41
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 19:10:19
          compiled from "/var/www/atable/templates/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:200587469451bc329b047039-61304325%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '99403bce8a0072d19c20b2307837ad147f77bc6d' => 
     array (
       0 => '/var/www/atable/templates/index.tpl',
-      1 => 1371372219,
+      1 => 1371377415,
       2 => 'file',
     ),
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="span2"></div>
 <div style="float: left;">
     <table>
-        <tr><th>営業時間</th><td>11:30～14:30(L.O:14:00)&nbsp;17:30～21:30(L.O:21:00)</td></tr>
-        <tr><th>定休日</th><td>水（水曜日の営業につきましてはご相談ください。）</td></tr>
-        <tr><th>TEL/FAX</th><td>0749-64-5400</td></tr>
+        <tr><th align="right">営業時間</th><td>11:30～14:30(L.O:14:00)&nbsp;17:30～21:30(L.O:21:00)</td></tr>
+        <tr><th align="right">定休日</th><td>水（水曜日の営業につきましてはご相談ください。）</td></tr>
+        <tr><th align="right">TEL/FAX</th><td>0749-64-5400</td></tr>
     </table>
 </div>
 <div style="clear: both;"></div>
@@ -39,10 +39,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <br>
 <div>
     <h1 class="under_banner">お知らせ</h1>
-    <blockquote>
-        <p class="text-info">『ぼてじゃこ倶楽部』限定メニューをご用意しております。</p>
-        <small>詳しくは『ぼてじゃこ倶楽部』をご覧ください。</small>
-    </blockquote>
+    <dl>
+        <dt><h3><p class="text-info">『ぼてじゃこ倶楽部』限定メニュー</p></h3></dt>
+        <dd><small>『ぼてじゃこ倶楽部』限定メニューをご用意しております。<br />詳しくは『ぼてじゃこ倶楽部』をご覧ください。</small></dd>
+    </dl>
 </div>
 </div>
 </div>

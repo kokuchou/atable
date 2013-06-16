@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-15 18:27:12
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 18:57:07
          compiled from "/var/www/atable/templates/group.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:121240172051bc33708a00c3-36994709%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cef0c63cdf4839637fe90b87d1bb4a4399f32c68' => 
     array (
       0 => '/var/www/atable/templates/group.tpl',
-      1 => 1371286709,
+      1 => 1371363728,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
   'unifunc' => 'content_51bc337090e054_01768506',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_51bc337090e054_01768506')) {function content_51bc337090e054_01768506($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-<h1>団体様プラン</h1>
+<h1 class="under_banner">団体様プラン</h1>
 団体様プランにつきましては、下記の2つのプランがございます。<br>
 記念日、歓送迎会、二次会や顔合わせなど様々なシーンでご利用いただけます。<br>
 
