@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://atable.cocotte.jp/blog/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.3" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.6" -->
+<!-- generated-on="2012年1月2日 5:07 AM" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://atable.cocotte.jp/blog/</loc>
+		<lastmod>2012-01-01T19:50:29+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 40: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://atable.cocotte.jp/blog/?p=40</loc>
+		<lastmod>2012-01-01T19:50:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 32: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://atable.cocotte.jp/blog/?p=32</loc>
+		<lastmod>2011-11-28T04:03:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

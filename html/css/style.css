@@ -1,0 +1,45 @@
+body {
+    font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%
+}
+
+div.main {
+    margin-top: 80px;
+}
+
+
+a{
+    color:#0000ff;
+    font-style:normal;
+    text-decoration: none;
+}
+a:link {
+    font-style:normal;
+    text-decoration: none;
+}
+a:visited {
+    color:#934C7B;
+    text-decoration: none;
+}
+a:hover {
+    color:#ff0000;
+    font-style:normal;
+    text-decoration: none;
+}
+a:active {
+    text-decoration:none;
+}
+div.main{
+    margin-left: 126px;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right:0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
