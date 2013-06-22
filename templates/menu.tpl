@@ -1,9 +1,9 @@
 {include file='common/header.tpl'}
 <h1 class="under_banner">メニュー</h1>
-<div align="center"><p><a href="#lunch">ランチ</a>　　<a href="#dinner">ディナー</a>　　<a href="#alltime">オールタイムコース</a></p></div>
-<div align="center">※苦手な食材やアレルギー等がございましたら、ご遠慮なくお申し付けください。<br>代わりの品などをご用意致します。</div>
-<div align="center">※手作りパンはバケットおかわり自由。ミルクパンの追加は1個50円になります。</div>
-<div align="center">※ご予算に応じて、承ります。</div>
+<p><a href="#lunch">ランチ</a>　　<a href="#dinner">ディナー</a>　　<a href="#alltime">オールタイムコース</a></p>
+※苦手な食材やアレルギー等がございましたら、ご遠慮なくお申し付けください。<br>代わりの品などをご用意致します。<br />
+※手作りパンはバケットおかわり自由。ミルクパンの追加は1個50円になります。<br />
+※ご予算に応じて、承ります。<br />
 <div align="left"><h3 id="lunch"><font size="3" color="red"><u>ランチ</u>(11:30～14:00)</font></h3></div><br>
 <table border="1" cellspacing="0" cellpadding="5" bordercolor="#333333">
     <tr>
@@ -35,7 +35,7 @@
         <td>オードブル・スープ・お魚料理・お肉料理・デザート・パン・カフィ</td>
     </tr>
     <tr>
-        <td><font color="red">☆1番人気☆</font><br>シェフおまかせ<br>ランチ<br><font color="red" size="+1">&yen;3,300</font></td>
+        <td><strong><font color="red">☆1番人気☆</font><br>シェフおまかせ<br>ランチ</strong><br><font color="red" size="+1">&yen;3,300</font></td>
         <td>オードブル・スープ・お魚料理・お肉料理・デザート・パン・カフィ</td>
     </tr>
     <tr>

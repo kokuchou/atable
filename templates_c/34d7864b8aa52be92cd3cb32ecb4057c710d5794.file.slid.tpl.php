@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 17:28:16
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-19 22:18:01
          compiled from "/var/www/atable/templates/slid.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:175413693451bd59bb7e7393-63278391%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '34d7864b8aa52be92cd3cb32ecb4057c710d5794' => 
     array (
       0 => '/var/www/atable/templates/slid.tpl',
-      1 => 1371371292,
+      1 => 1371647877,
       2 => 'file',
     ),
   ),
@@ -23,13 +23,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <div class="carousel-inner" align="center">
 
-    <div class="item active">
+    <div class="item">
     <img src="/photo/wine.png" alt="" class="img-rounded">
     </div>
     <div class="item">
     <img src="/photo/nav01.png" alt="" class="img-rounded">
     </div>
-    <div class="item">
+    <div class="item active">
     <img src="/photo/nav03.png" alt="" class="img-rounded">
     </div>
     <div class="item">
@@ -68,4 +68,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="icon-arrow-left"></i></a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="icon-arrow-right"></i></a>
-<div><?php }} ?>
+</div><?php }} ?>

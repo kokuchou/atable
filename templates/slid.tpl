@@ -16,13 +16,13 @@
     </div>
     </div>
 *}
-    <div class="item active">
+    <div class="item">
     <img src="/photo/wine.png" alt="" class="img-rounded">
     </div>
     <div class="item">
     <img src="/photo/nav01.png" alt="" class="img-rounded">
     </div>
-    <div class="item">
+    <div class="item active">
     <img src="/photo/nav03.png" alt="" class="img-rounded">
     </div>
     <div class="item">
@@ -61,4 +61,4 @@
 </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="icon-arrow-left"></i></a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="icon-arrow-right"></i></a>
-<div>
+</div>

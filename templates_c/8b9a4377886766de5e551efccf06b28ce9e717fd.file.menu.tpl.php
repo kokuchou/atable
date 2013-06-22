@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2013-06-16 18:52:52
+<?php /* Smarty version Smarty-3.1.11, created on 2013-06-22 08:46:12
          compiled from "/var/www/atable/templates/menu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:124181686451bc336d731020-39354888%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8b9a4377886766de5e551efccf06b28ce9e717fd' => 
     array (
       0 => '/var/www/atable/templates/menu.tpl',
-      1 => 1371363728,
+      1 => 1371858361,
       2 => 'file',
     ),
   ),
@@ -22,10 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_51bc336d786624_61110180')) {function content_51bc336d786624_61110180($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <h1 class="under_banner">メニュー</h1>
-<div align="center"><p><a href="#lunch">ランチ</a>　　<a href="#dinner">ディナー</a>　　<a href="#alltime">オールタイムコース</a></p></div>
-<div align="center">※苦手な食材やアレルギー等がございましたら、ご遠慮なくお申し付けください。<br>代わりの品などをご用意致します。</div>
-<div align="center">※手作りパンはバケットおかわり自由。ミルクパンの追加は1個50円になります。</div>
-<div align="center">※ご予算に応じて、承ります。</div>
+<p><a href="#lunch">ランチ</a>　　<a href="#dinner">ディナー</a>　　<a href="#alltime">オールタイムコース</a></p>
+※苦手な食材やアレルギー等がございましたら、ご遠慮なくお申し付けください。<br>代わりの品などをご用意致します。<br />
+※手作りパンはバケットおかわり自由。ミルクパンの追加は1個50円になります。<br />
+※ご予算に応じて、承ります。<br />
 <div align="left"><h3 id="lunch"><font size="3" color="red"><u>ランチ</u>(11:30～14:00)</font></h3></div><br>
 <table border="1" cellspacing="0" cellpadding="5" bordercolor="#333333">
     <tr>
@@ -57,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <td>オードブル・スープ・お魚料理・お肉料理・デザート・パン・カフィ</td>
     </tr>
     <tr>
-        <td><font color="red">☆1番人気☆</font><br>シェフおまかせ<br>ランチ<br><font color="red" size="+1">&yen;3,300</font></td>
+        <td><strong><font color="red">☆1番人気☆</font><br>シェフおまかせ<br>ランチ</strong><br><font color="red" size="+1">&yen;3,300</font></td>
         <td>オードブル・スープ・お魚料理・お肉料理・デザート・パン・カフィ</td>
     </tr>
     <tr>

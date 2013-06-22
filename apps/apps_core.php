@@ -1,5 +1,10 @@
 <?php
 
+define('ERROR', 'error');
+define('SUCCESS', 'success');
+define('INFO', 'info');
+define('BLOCK', 'block');
+
 class apps_core 
 {
     // smarty変数
@@ -37,6 +42,12 @@ class apps_core
         }
         return $value;
     }
+    
+    protected function setMessage($mess, $type = INFO)
+    {
+        $this->smarty->assign('mess', $mess);
+        $this->smarty->assign('type', $type);
+    }
 
     public function __construct()
     {
@@ -49,6 +60,13 @@ class apps_core
         } else {
             $this->agentPC = true;
         }
+        $chrome=strpos($_SERVER["HTTP_USER_AGENT"],"Chrome");
+        if ($chrome) {
+            $browser = 'chrome';
+        } else {
+            $browser = 'other';
+        }
+        $this->smarty->assign('browser', $browser);
         $this->smarty->assign('agent', $this->agentPC);
         $this->smarty->assign('cur', '');
     }

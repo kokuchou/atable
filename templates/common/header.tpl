@@ -4,36 +4,41 @@
 {$title}
 </TITLE>
 <link rel="shortcut icon" href="/img/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{if !$agent}
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<script type="text/javascript" src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+{/if}
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <script type="text/javascript" src="/js/bootstrap.js"></script>                                   <!-- PRETTIFY -->
 <link rel="stylesheet" href="{$css}" type="text/css">
 <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="all" />
-<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css" rel="stylesheet">
 <link rel="stylesheet" href="/css/font-awesome.css">
 <!--[if IE 7]>
 <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
 <![endif]-->
 <Style Type="text/css">
-<!--
-body {
-background-image: url("/photo/125px-Flag_of_France.svg.png");
-background-repeat: repeat-y;
-background-attachment: fixed;
-background-position: left bottom
-}
--->
 <meta content="ア・ターブルは創作フランスレストランです。お手頃な価格で本格的なフランス料理を楽しむことができます。滋賀県長浜" name="description" />
 <meta content="滋賀,長浜,フランス料理,創作,レストラン" name="keywords" />
 <meta content="index,follow" name="robots" />
 <meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
 </Style>
 </HEAD>
-<BODY bgcolor="#e0fffd">
+<BODY bgcolor="#e0fffd" >
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+    <a class="brand" href="/">&nbsp;&nbsp;&Agrave;&nbsp;table</a>
+    <div class="nav-collapse collapse">
     <ul class="nav">
-    <li><a class="brand" href="/">&nbsp;&nbsp;&Agrave;&nbsp;table</a></li>
       <li{if $cur === 'about'} class="active"{/if}><a href="/about/"><i class="icon-home"></i>About</a></li>
       <li{if $cur === 'access'} class="active"{/if}><a href="/access/"><i class="icon-map-marker"></i>Access</a></li>
       <li class="dropdown{if $cur === 'menu'} active{/if}">
@@ -68,6 +73,7 @@ background-position: left bottom
         </script>
       </li>
     </ul>
+      </div>
   </div>
 </div>
 

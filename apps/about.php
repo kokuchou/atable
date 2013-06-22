@@ -7,7 +7,7 @@ class about extends apps_core{
     
     public function index()
     {
-        $this->smarty->assign('title', 'アターブルについて');
+        $this->smarty->assign('title', 'ア・ターブルについて');
         $this->smarty->display('about.tpl');
     }
     

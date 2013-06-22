@@ -1,8 +1,8 @@
 {include file='common/header.tpl'}
 <h1 class="under_banner">お問い合わせ</h1>
-<div align="center">ご予約などにつきましては下記にお問い合わせください。<br>ご不明点などございましたら、お気軽にお問い合わせください。</div>
-<br><br>
 <div class="span9">
+<div>ご予約などにつきましては下記にお問い合わせください。<br>ご不明点などございましたら、お気軽にお問い合わせください。</div>
+<br><br>
 <table class="table table-striped">
     <tr>
         <td>TEL/FAX</td>

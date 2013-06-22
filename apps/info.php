@@ -7,7 +7,7 @@ class info extends apps_core{
     
     public function index()
     {
-        $this->smarty->assign('title', 'インフォメーション');
+        $this->smarty->assign('title', 'お問い合わせ');
 
         $this->smarty->display('info.tpl');
     }

@@ -2,7 +2,11 @@ body {
     font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     margin-left: 10%;
     margin-top: 5%;
-    margin-right: 10%
+    margin-right: 10%;
+    background-image: url("/photo/125px-Flag_of_France.svg.png");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: left bottom;
 }
 
 div.main {
@@ -48,4 +52,8 @@ div.main{
     background-image: url("/img/under_banner.png");
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+
+select.date {
+    width: 80px;
 }
